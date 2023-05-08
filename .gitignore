@@ -1,0 +1,29 @@
+# arquivos temporários
+~$*
+*.bak
+
+# Visual Studio / .NET
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+*.opendb
+*.sln.docstates
+*.suo
+*.cache
+*.userosscache
+*.manifest
+bin/
+obj/

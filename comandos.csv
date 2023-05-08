@@ -1,0 +1,43 @@
+Instrucoes de como utilizar;;;
+Esse arquivo deve ficar dentro de uma pasta chamada "parametros" no mesmo local onde esta o executavel.
+Podemos adicionar comandos do tipo processo, tecla ou atalho.
+processo: sao todos os comandos que voce conseguiria rodar vida cmd do windows.
+tecla: simula o apertar de uma tecla do teclado, porem respeitando como essas teclas sao conhecida pelos software microsoft.
+atalho: nada mais é do que a combinacao das tecla conforme o padrao definido no tipo "tecla"
+obs.: segue link com o padrao de teclas fornecido pelo microsoft.
+https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.sendkeys?redirectedfrom=MSDN&view=windowsdesktop-7.0
+;;;
+BaudRate;9600;;
+PortName;COM9;;
+;;;
+pageA;PagA-01 1-control@2-calc 3-nome @PagA-02  4-cut @5-copy  6-paste;;
+comandoa;1;control;processo
+comandoa;2;calc;processo
+comandoa;3;marcio;tecla
+comandoa;4;^(x);atalho
+comandoa;5;^(c);atalho
+comandoa;6;^(v);atalho
+;;;
+pageB;PagB-01 1-1  @2-2 3-3@PagB-02 4-4@5-5  6-6;;
+comandob;1;1;tecla
+comandob;2;2;tecla
+comandob;3;3;tecla
+comandob;4;4;tecla
+comandob;5;5;tecla
+comandob;6;6;tecla
+;;;
+pageC;PagC-01 1-  @2-    3-   @PagC-02 4-   @5-    6- ;;
+comandoc;1;;tecla
+comandoc;2;;tecla
+comandoc;3;;tecla
+comandoc;4;;tecla
+comandoc;5;;tecla
+comandoc;6;;tecla
+;;;
+pageD;PagD-01 1-  @2-    3-   @PagD-02 4-   @5-    6- ;;
+comandod;1;;tecla
+comandod;2;;tecla
+comandod;3;;tecla
+comandod;4;;tecla
+comandod;5;;tecla
+comandod;6;;tecla
